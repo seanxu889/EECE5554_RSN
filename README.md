@@ -1,5 +1,5 @@
 # EECE5554_Sensing_Navigation
-EECE5554 Robotics Sensing and Navigation Northeastern’s Autonomous Car (NUANCE) LiDAR Project: 
+EECE5554 Robotics Sensing and Navigation Northeastern’s Autonomous Car (NUANCE) Project: 
 Real-World Lidar Odometry and Mapping Using LeGO-LOAM
 
 ## Data: car_IR_RGB_lidar data
