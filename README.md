@@ -16,27 +16,27 @@ The camera calibration for the RGB cameras are available in rosbag, IR camera ca
 
 Raw point cloud at time t: Pt = {p1, p2, …, pi, …, pn}:
 <p align="center">
-![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2a_raw2.gif)
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2a_raw2.gif">      
 </p>
       
 Extract ground points using column-wise evaluation (ground plane estimation):
 <p align="center">
-![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_ground2.gif)
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_ground2.gif"> 
 </p>
 
 Apply image-based segmentation to the range image to group points into many clusters:
 <p align="center">
-![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_seg2.gif)
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_seg2.gif"> 
 </p>
 
 Sort the points to edge and planar feature points:
 <p align="center">
-![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2d.gif)
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2d.gif"> 
 </p>
 
 Further extract edge features and planar features:
 <p align="center">
-![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif)
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif"> 
 </p>
 
 ## Results of Mapping part
@@ -47,6 +47,6 @@ click the GIF to view YouTube video showing mapping process and final 3D mapping
 " target="_blank">
       <img 
        src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/overview1.gif" 
-       alt="IMAGE ALT TEXT HERE" width="560" height="400" border="10" />
+       alt="IMAGE ALT TEXT HERE" width="560" height="360" border="10" />
        </a>
      </div>
