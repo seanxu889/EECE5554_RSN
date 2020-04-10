@@ -19,17 +19,20 @@ Raw point cloud at time t: Pt = {p1, p2, …, pi, …, pn}:
 <img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2a_raw2.gif">      
 </p>
       
+Project to a range image with size of1800x16. Each pixel represent a point pi and also associate the range value ri.
 Extract ground points using column-wise evaluation (ground plane estimation):
 <p align="center">
 <img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_ground2.gif"> 
 </p>
 
-Apply image-based segmentation to the range image to group points into many clusters:
+Apply image-based segmentation to the range image to group points into many clusters. Omit the clusters that have fewer than 30 points:
 <p align="center">
 <img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_seg2.gif"> 
 </p>
 
-Sort the points to edge and planar feature points:
+Here, we have ground and large object points. Only save these points in range image. After segmentation, the processing efficiency and feature extraction accuracy are improved, and fast and reliable feature extraction can be performed.
+
+Extract features from ground and segmented points. Evaluate the roughness / curvature of point pi use C. From all sub-images, we get 40 edge features and 80 planar features:
 <p align="center">
 <img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2d.gif"> 
 </p>
@@ -38,6 +41,8 @@ Further extract edge features and planar features:
 <p align="center">
 <img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif"> 
 </p>
+
+Finally, we get edge and planar feature points. The number of features also greatly reduced. Based on these features, we can run into the Lidar odometry and mapping modules.
 
 ## Results of Mapping part
 click the GIF to view YouTube video showing mapping process and final 3D mapping: ns1_no_loop_closure_no_imu
