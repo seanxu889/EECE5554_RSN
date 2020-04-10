@@ -8,32 +8,39 @@ In this dataset, Northeastern’s autonomous car(NUANCE) is driven manually alon
 
 The camera calibration for the RGB cameras are available in rosbag, IR camera calibration is provided in the info.txt file. The specs of the cameras, Lidar are also provided in the info.txt file.
 
-![image](https://github.com/seanxu889/EECE5554_Sensing_Navigation/blob/master/Data/car_IR_RGB_lidar_data_screenshot.png)
+<p align="center">
+<img src="https://github.com/seanxu889/EECE5554_Sensing_Navigation/blob/master/Data/car_IR_RGB_lidar_data_screenshot.png" height="300" width="600">
+</p>
 
 ## Results of Segmentation and Feature Extraction part
 
 Raw point cloud at time t: Pt = {p1, p2, …, pi, …, pn}:
-
+<p align="center">
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2a_raw2.gif)
-
+</p>
+      
 Extract ground points using column-wise evaluation (ground plane estimation):
-
+<p align="center">
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_ground2.gif)
+</p>
 
 Apply image-based segmentation to the range image to group points into many clusters:
-
+<p align="center">
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2b_seg2.gif)
+</p>
 
 Sort the points to edge and planar feature points:
-
+<p align="center">
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2d.gif)
+</p>
 
 Further extract edge features and planar features:
-
+<p align="center">
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif)
+</p>
 
 ## Results of Mapping part
-click the GIF to view YouTube video: ns1_no_loop_closure_no_imu
+click the GIF to view YouTube video showing mapping process and final 3D mapping: ns1_no_loop_closure_no_imu
 
 <div align="center">
       <a href="http://www.youtube.com/watch?feature=player_embedded&v=ZVJjqH2R0SQ
