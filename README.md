@@ -1,5 +1,6 @@
 # EECE5554_Sensing_Navigation
-EECE5554 Robotics Sensing and Navigation Northeastern’s Autonomous Car (NUANCE) LiDAR Project
+EECE5554 Robotics Sensing and Navigation Northeastern’s Autonomous Car (NUANCE) LiDAR Project: 
+Real-World Lidar Odometry and Mapping Using LeGO-LOAM
 
 ## Data: car_IR_RGB_lidar data
 
@@ -32,7 +33,13 @@ Further extract edge features and planar features:
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif)
 
 ## Results of Mapping part
+click the GIF to view YouTube video: ns1_no_loop_closure_no_imu
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZVJjqH2R0SQ
-" target="_blank"><img src="http://img.youtube.com/vi/ZVJjqH2R0SQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<div align="center">
+      <a href="http://www.youtube.com/watch?feature=player_embedded&v=ZVJjqH2R0SQ
+" target="_blank">
+      <img 
+       src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/overview1.gif" 
+       alt="IMAGE ALT TEXT HERE" width="560" height="400" border="10" />
+       </a>
+     </div>
