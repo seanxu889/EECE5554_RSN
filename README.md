@@ -30,3 +30,9 @@ Sort the points to edge and planar feature points:
 Further extract edge features and planar features:
 
 ![image](https://github.com/seanxu889/EECE5554_RSN/blob/master/results/2c.gif)
+
+## Results of Mapping part
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZVJjqH2R0SQ
+" target="_blank"><img src="http://img.youtube.com/vi/ZVJjqH2R0SQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
