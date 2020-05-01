@@ -12,7 +12,7 @@ The camera calibration for the RGB cameras are available in rosbag, IR camera ca
 <img src="https://github.com/seanxu889/EECE5554_Sensing_Navigation/blob/master/Data/car_IR_RGB_lidar_data_screenshot.png" height="300" width="600">
 </p>
 
-## Results of Segmentation and Feature Extraction part
+## LeGO-LOAM Point Cloud Segmentation and Feature Extraction
 
 Raw point cloud at time t: Pt = {p1, p2, …, pi, …, pn}:
 <p align="center">
@@ -44,7 +44,7 @@ Further extract edge features and planar features:
 
 Finally, we get edge and planar feature points. The number of features also greatly reduced. Based on these features, we can run into the Lidar odometry and mapping modules.
 
-## Results of Mapping part
+## LeGO-LOAM Final Mapping
 click the GIF to view YouTube video showing mapping process and final 3D mapping: ns1_no_loop_closure_no_imu
 
 <div align="center">
@@ -55,3 +55,5 @@ click the GIF to view YouTube video showing mapping process and final 3D mapping
        alt="IMAGE ALT TEXT HERE" width="560" height="360" border="10" />
        </a>
      </div>
+
+## SqueezeSeg Point Cloud Road-Object Segmentation
