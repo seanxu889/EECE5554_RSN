@@ -57,3 +57,8 @@ click the GIF to view YouTube video showing mapping process and final 3D mapping
      </div>
 
 ## SqueezeSeg Point Cloud Road-Object Segmentation
+
+demo results:
+<p align="center">
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/results/plot_2011_09_26_0093_0000000412.png"> 
+</p>
