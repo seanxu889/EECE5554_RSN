@@ -1,0 +1,5 @@
+run GPS driver file: rosrun LAB2 gps_driver.py
+gps topic name: gps/gps
+
+run IMU driver file: rosrun LAB2 imu_driver.py
+imu topic name: imu/imu and imu/imu_mag
