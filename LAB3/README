@@ -1,0 +1,5 @@
+To directly get valid data from port: /dev/ttyACM0, baudrate: 115200
+run RTK-GPS driver file: 'rosrun LAB3 rtk_gps_driver.py'
+topic name: gps/gps
+
+* rtk_gps_driver2.py file defines a subscriber to extract the valid information only from raw data.
