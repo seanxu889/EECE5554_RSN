@@ -2,6 +2,10 @@
 EECE5554 Robotics Sensing and Navigation project using Northeastern’s Autonomous Car (NUANCE) data: 
 Real-World Lidar Odometry and Mapping Using LeGO-LOAM and Point Cloud Road-Object Segmentation using SqueezeSeg
 
+<p align="center">
+<img src="https://github.com/seanxu889/EECE5554_RSN/blob/master/Data/NUance.jpg" height="220" width="1200">
+</p>
+
 ## Data: car_IR_RGB_lidar data
 
 In this dataset, Northeastern’s autonomous car(NUANCE) is driven manually along the streets of Newbury street in Boston. The dataset has stereo RGB cameras looking forward, IR camera looking forward, 2 Velodyne VLP-16 lidar mounted on top of the car, IMU, GPS. The main focus in this dataset was to collect camera data with at least one  loop closures. The sensors like lidars, gps, imu in combination can serve as ground truth for visual slam algorithms.
